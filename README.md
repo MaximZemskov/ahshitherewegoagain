@@ -5,6 +5,8 @@ This shell script install on Mac OSX python environment
 ## !! ATENTION !!
 This script will delete all your postgres databases
 
+`zsh` will be default shell
+
 ### Usage:
 
 ```bash
@@ -26,3 +28,4 @@ Script will needed in your attention two times at the beginning:
 - pv
 - mc
 - tree
+- zsh
