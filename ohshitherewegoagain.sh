@@ -109,5 +109,9 @@ ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
 echo "starting redis.."
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
+# installing zsh
+echo "installing zsh.."
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-
+echo "copy bosh_profile settings to zsh"
+cat ~/.bash_profile >> ~/.zshrc
