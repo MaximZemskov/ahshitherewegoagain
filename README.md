@@ -1,6 +1,6 @@
 # OHSHITHEREWEGOAGAIN
 
-This shell script install on Mac OSX python environment 
+This shell script install python environment on Mac OSX 
 
 ## !! ATENTION !!
 This script will delete all your postgres databases
