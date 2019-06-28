@@ -111,10 +111,14 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
 # installing zsh
 echo "installing zsh.."
-brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo "copy bosh_profile settings to zsh"
 cat ~/.bash_profile >> ~/.zshrc
 
 echo "making it default shell"
 chsh -s zsh
+
+echo "DEFAULT_USER=`whoami`" >> ~/.zshrc
+
+source ~/.zshrc
