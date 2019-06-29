@@ -1,4 +1,4 @@
-# OHSHITHEREWEGOAGAIN
+# AHSHITHEREWEGOAGAIN
 
 This shell script install python environment(and a little bit frontend part) on Mac OSX 
 
