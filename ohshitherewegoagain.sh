@@ -122,3 +122,6 @@ chsh -s zsh
 echo "DEFAULT_USER=`whoami`" >> ~/.zshrc
 
 source ~/.zshrc
+
+# installing node and npm
+brew install node
